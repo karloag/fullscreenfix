@@ -21,4 +21,4 @@
 .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
     opacity: 1;
     pointer-events: auto; /* Allows interaction when visible */
-} 
+}  
