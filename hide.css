@@ -17,8 +17,7 @@
     z-index: 1000;
 }
 
-/* Show #header when hovering over the pseudo-element at the top */
-.tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
+ .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
     opacity: 1;
     pointer-events: auto; /* Allows interaction when visible */
 }  
