@@ -3,7 +3,7 @@
     min-height: calc(36px / var(--uiZoomLevel));
     opacity: 0;
     pointer-events: none; /* Prevents interaction with hidden header */
-    transition: opacity 0.3s ease; /* Smooth transition when showing */
+    transition: opacity 0.3s ease; 
 }
 
 /* Create a hover zone at the top of the screen using a pseudo-element */
@@ -13,12 +13,11 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 36px; /* Height of the hover area at the top of the screen */
+    height: 36px;  
     z-index: 1000; /* Ensure it’s above other elements */
 }
 
-/* Show #header when hovering over the pseudo-element at the top */
-.tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
+ .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
     opacity: 1;
     pointer-events: auto; /* Allows interaction when visible */
 }  
