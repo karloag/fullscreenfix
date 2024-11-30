@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 1px; /* Height of the hover area at the top of the screen */
+    height: 36px; /* Height of the hover area at the top of the screen */
     z-index: 1000; /* Ensure it’s above other elements */
 }
 
