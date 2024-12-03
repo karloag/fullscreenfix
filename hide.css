@@ -2,7 +2,7 @@
 .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar) #header {
     min-height: calc(36px / var(--uiZoomLevel));
     opacity: 0;
-    pointer-events: none; /* Prevents interaction with hidden header */
+    pointer-events: none; 
     transition: opacity 0.3s ease; 
 }
 
@@ -14,10 +14,10 @@
     left: 0;
     right: 0;
     height: 36px;  
-    z-index: 1000; /* Ensure it’s above other elements */
+    z-index: 1000; 
 }
 
  .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
     opacity: 1;
-    pointer-events: auto; /* Allows interaction when visible */
+    pointer-events: auto; 
 }  
