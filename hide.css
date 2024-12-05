@@ -1,7 +1,7 @@
 /* Make #header invisible by default */
 .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar) #header {
     min-height: calc(36px / var(--uiZoomLevel));
-    opacity: 0;
+    opacity: 1;
     pointer-events: none; 
     transition: opacity 0.3s ease; 
 }
@@ -18,6 +18,6 @@
 }
 
  .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
-    opacity: 1;
+    opacity: 0;
     pointer-events: auto; 
 }  
