@@ -21,3 +21,33 @@
     opacity: 0;
     pointer-events: auto; 
 }  
+
+
+/*
+
+
+order right but hoover works on "tab containers" only , not everywhere
+
+
+#tabs-container, 
+#header {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#tabs-container:hover, 
+#header:hover {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
+
+
+
+
+
+
+*/
