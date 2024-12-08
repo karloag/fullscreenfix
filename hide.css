@@ -1,10 +1,16 @@
-/* Make #header invisible by default */
+/* Make #header invisible by default*/ 
 .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar) #header {
     min-height: calc(36px / var(--uiZoomLevel));
     opacity: 1;
     pointer-events: none; 
     transition: opacity 0.3s ease; 
+    background: blue;
 }
+ .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
+    opacity: 0;
+    pointer-events: auto; 
+    background: white;
+}  
 
 /* Create a hover zone at the top of the screen using a pseudo-element */
 .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar)::before {
@@ -16,19 +22,8 @@
     height: 36px;  
     z-index: 1000; 
 }
-
- .tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar):hover #header {
-    opacity: 0;
-    pointer-events: auto; 
-}  
-
-
 /*
-
-
 order right but hoover works on "tab containers" only , not everywhere
-
-
 #tabs-container, 
 #header {
     opacity: 0;
@@ -40,14 +35,9 @@ order right but hoover works on "tab containers" only , not everywhere
 #header:hover {
     opacity: 1;
     pointer-events: auto;
-}
+    background:tomato;    
+}*/
 
 
 
 
-
-
-
-
-
-*/
